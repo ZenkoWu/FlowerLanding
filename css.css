@@ -1,0 +1,341 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainPoster {
+    color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-image: url('https://almazwptemplates.online/florist-ru/wp-content/uploads/sites/115/2022/05/florist-home-01.jpg');
+}
+
+.linksContainer {
+    padding: 5px 80px;  
+}
+
+.links {
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 0; 
+}
+
+.description {
+    padding: 90px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding: 0 35px;
+    text-align: center;
+    font-size: 74px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content {
+    padding: 30px 90px;
+}
+.cardsContainer {
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    
+}
+.card { 
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 33%;
+}
+
+.card img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+.buyBtn {
+    border: none;
+    color: rgb(71, 71, 71);
+    background: #e3dfdf;
+}
+
+.buyBtn:hover {
+    background-color: #c9c7c7;
+}
+.allBouquets {
+    text-align: center;
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    width: 100px;
+    
+}
+.allBouquets:hover {
+    background-color: green;
+    color: white;
+}
+
+.buyUniqueBtn {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease-in-out;
+    width: 200px;
+}
+
+.buyUniqueBtn:hover {
+    background-color: rgb(80, 182, 80);
+}
+.serviceDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding: 0 50px;
+}
+.serviceTitle {
+    font-size: 46px;
+}
+
+.serviceImg{
+    border-radius: 20px;
+    width: 500px;
+}
+
+.socialLinks a:hover {
+    text-decoration: underline;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column  {
+    flex-direction: column;
+}
+.justify-between {
+    justify-content: space-between;       
+}
+
+.justify-center {
+    justify-content: center;       
+}
+
+.align-items-center {
+    align-items: center; 
+}
+.text-dark {
+    color: black;
+}
+.fw-bold {
+    font-weight: bold;
+}
+
+.fs-1 {
+    font-size: 28px;
+}
+.fs-2 {
+    font-size: 20px;
+}
+
+.fs-5 {
+    font-size: 24px;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.fs-6 {
+    font-size: 20px;
+}
+.gap-4 { 
+    gap: 40px;
+}
+.gap-2 {
+    gap: 20px;
+}
+.w-100 {
+    width: 100%;
+}
+.d-block {
+    display: block;
+}
+
+.text-white {
+    color: white;
+}
+.p-0 {
+    padding: 0;
+} 
+.m-0 {
+    margin: 0;
+}
+
+.borderTop {
+    border-top: 1px solid rgb(212, 208, 208);
+}
+.py-5 {
+    padding: 50px 0;
+}
+.py-3 {
+    padding: 30px 0;
+}
+.pt-5 {
+    padding-top: 50px;
+}
+.px-5{ 
+    padding: 0 50px;
+}
+
+.pb-5 {
+    padding-bottom: 50px;
+}
+
+.vertical-center {
+    vertical-align: center;
+}
+.red {
+    border: 1px solid red;
+}
+
+.text-center {
+    text-align: center;
+}
+.button {
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.serviceCard {
+    box-sizing: border-box;
+}
+
+.serviceCard.special {
+    display: block;
+}
+
+.serviceCard.special img {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media (max-width: 990px) {
+    .mainPoster{
+        padding-bottom: 100px;
+    }
+    .description .title {
+        font-size: 48px;
+    }
+    .description .text {
+        padding: 0 10px;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    .content {
+        padding: 30px 20px;
+    }
+    .contentTitle {
+        font-size: 26px;
+    }
+    .contentDescription {
+        padding: 0px;
+    }
+
+    .serviceCard {
+        padding: 0 20px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: 100%;
+        gap: 20px; 
+    }
+    .serviceImg {
+        width: 400px;
+    }
+    .serviceTitle{
+        font-size: 24px;
+    }
+
+    .serviceDescription {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .links {
+        display: block;
+        text-align: center;
+    }
+    .links div {
+        gap: 20px;
+    }
+    .description {
+        padding: 10px;
+    }
+    .description .title {
+        font-size: 36px;
+    }
+    .description .text {
+        padding: 0 10px;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    .content {
+        padding: 30px 10px;
+    }
+    .contentTitle {
+        font-size: 26px;
+    }
+    .contentDescription {
+        padding: 0px;
+    }
+    .card{
+        width: 100%;
+    }
+    .card h2, .card p {
+        text-align: center;
+    }
+
+    .btnGroup {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .serviceCard {
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+        gap: 0;
+    }
+
+    .serviceCard.special {
+        display: flex;
+    }
+
+    .serviceTitle{
+        font-size: 24px;
+    }
+    .serviceImg {
+        width: 100%;
+    }
+    .serviceDescription {
+        padding: 0 20px;
+    }
+}
